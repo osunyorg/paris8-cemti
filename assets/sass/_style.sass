@@ -1,3 +1,32 @@
+.has-menu-opened
+    #document-header
+        .logo
+            > img
+                display: none
+            .logo-darkmode
+                display: block
+.dropdown-menu
+    @include media-breakpoint-up(lg)
+        transform-origin: 100% 0%
+        transform: rotate(20deg) translateY(-100px)
+        z-index: -1
+        display: inline
+        padding-top: 300px !important
+    .dropdown-menu-title
+        font-weight: bold !important
+
+.avatar 
+    border: 2px solid $color-accent
+.persons__page .hero--with-image figure picture
+    border: 10px solid $color-accent
+.blocks
+    .block
+        &-pages
+            &--cards
+                background: none
+                .cards
+                    .card
+                        border: $color-border solid 1px
 #document-footer
     overflow: hidden
     padding-top: 150px !important
@@ -7,8 +36,18 @@
         bottom: var(--grid-gutter)
         right: var(--grid-gutter)
         text-align: right
+        &::before
+            content: ''
+            background-image: url('/assets/images/logo-on-red.png')
+            background-repeat: no-repeat
+            background-size: 100px
+            display: inline-block
+            height: 40px
+            width: 100px
+        [itemprop="name"]
+            display: none
         @include media-breakpoint-up(lg)
-            transform: rotateZ(20deg)
+            transform: rotate(20deg)
         address
             margin-top: 0 !important
     .footer-credit
@@ -18,10 +57,10 @@
         z-index: -1
         color: $color-accent
         position: absolute
-        transform: rotateZ(20deg)
+        transform: rotate(20deg)
         @include media-breakpoint-down(lg)
             right: 20%
-            bottom: 200px
+            bottom: 250px
         @include media-breakpoint-up(lg)
             right: 30%
             top: 100px

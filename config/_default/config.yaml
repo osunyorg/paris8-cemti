@@ -4,11 +4,18 @@ removePathAccents: true
 pagination:
   pagerSize: 30
 params:
+  breadcrumb:
+    position: after-hero
+  menu:
+    dropdown:
+      linkToLevel1: true
   summary:
     position: hero
   search:
     active: true
     position: footer
   logo:
-    header: /assets/images/logo.png
-    footer: /assets/images/logo-baseline.png
+    header:
+      default: /assets/images/logo.png
+      darkmode: /assets/images/logo-on-red.png
+    footer: /assets/images/paris8.png
