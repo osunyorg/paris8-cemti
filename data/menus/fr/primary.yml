@@ -25,12 +25,12 @@ items:
   target: "/lequipe/"
   kind: page
   children: []
-- title: Projets
-  target: "/la-recherche/projets-de-recherche/"
-  kind: page
-  children: []
 - title: La recherche
   target: "/la-recherche/"
   kind: page
-  children: []
+  children:
+  - title: Projets
+    target: "/la-recherche/projets-de-recherche/"
+    kind: page
+    children: []
 
