@@ -17,6 +17,10 @@ items:
     target: "/le-laboratoire/environnement-institutionnel/"
     kind: page
     children: []
+  - title: Partenaires
+    target: "/le-laboratoire/partenaires/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
