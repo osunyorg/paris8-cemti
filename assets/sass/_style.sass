@@ -1,10 +1,16 @@
+#document-header
+    .logo
+        > img
+            display: block !important
+        .logo-darkmode
+            display: none !important
 .has-menu-opened
     #document-header
         .logo
             > img
-                display: none
+                display: none !important
             .logo-darkmode
-                display: block
+                display: block !important
 .dropdown-menu
     @include media-breakpoint-up(lg)
         transform-origin: 100% 0%
