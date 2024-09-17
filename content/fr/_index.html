@@ -58,17 +58,38 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Le laboratoire
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
+      page: 
+        path: "/le-laboratoire/"
+        slug: "le-laboratoire"
+        file: "pages/le-laboratoire/_index.html"
       options:
         image: true
         main_summary: true
         summary: true
 
-      layout: grid
+      layout: cards
       pages:
+        - path: "/le-laboratoire/presentation/"
+          slug: "presentation"
+          file: "pages/le-laboratoire/presentation/_index.html"
+          external: false
+        - path: "/le-laboratoire/administration/"
+          slug: "administration"
+          file: "pages/le-laboratoire/administration/_index.html"
+          external: false
+        - path: "/le-laboratoire/environnement-institutionnel/"
+          slug: "environnement-institutionnel"
+          file: "pages/le-laboratoire/environnement-institutionnel/_index.html"
+          external: false
+        - path: "/le-laboratoire/partenaires/"
+          slug: "partenaires"
+          file: "pages/le-laboratoire/partenaires/_index.html"
+          external: false
 
 
 
