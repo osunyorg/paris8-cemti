@@ -29,4 +29,8 @@ items:
     target: "/le-laboratoire/presentation/"
     kind: page
     children: []
+  - title: Administration
+    target: "/le-laboratoire/administration/"
+    kind: page
+    children: []
 
