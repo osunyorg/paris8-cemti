@@ -37,10 +37,6 @@ items:
   target: "/equipe/"
   kind: page
   children: []
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  children: []
 - title: Projets
   target: "/projets/"
   kind: page
