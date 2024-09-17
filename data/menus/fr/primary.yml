@@ -38,7 +38,7 @@ items:
     kind: page
     children: []
   - title: Agenda
-    target: "/agenda/"
+    target: "/la-recherche/agenda/"
     kind: page
     children: []
 
