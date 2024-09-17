@@ -21,12 +21,12 @@ items:
     target: "/le-laboratoire/partenaires/"
     kind: page
     children: []
-- title: Projets
-  target: "/projets/"
-  kind: page
-  children: []
 - title: L'équipe
   target: "/lequipe/"
+  kind: page
+  children: []
+- title: Projets
+  target: "/projets/"
   kind: page
   children: []
 
