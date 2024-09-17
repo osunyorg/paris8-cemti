@@ -8,6 +8,7 @@ params:
     position: hero
   search:
     active: true
+    position: footer
   logo:
     header: /assets/images/logo.png
     footer: /assets/images/logo-baseline.png
