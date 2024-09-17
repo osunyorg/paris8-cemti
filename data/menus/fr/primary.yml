@@ -21,6 +21,10 @@ items:
     target: "/le-laboratoire/partenaires/"
     kind: page
     children: []
+- title: L'équipe
+  target: "/lequipe/"
+  kind: page
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -39,10 +43,6 @@ items:
   children: []
 - title: Projets
   target: "/projets/"
-  kind: page
-  children: []
-- title: L'équipe
-  target: "/lequipe/"
   kind: page
   children: []
 
