@@ -21,4 +21,8 @@ items:
   target: "/projets/"
   kind: page
   children: []
+- title: Le laboratoire
+  target: "/le-laboratoire/"
+  kind: page
+  children: []
 
