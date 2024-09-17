@@ -24,5 +24,9 @@ items:
 - title: Le laboratoire
   target: "/le-laboratoire/"
   kind: page
-  children: []
+  children:
+  - title: Présentation
+    target: "/le-laboratoire/presentation/"
+    kind: page
+    children: []
 
