@@ -13,10 +13,6 @@ items:
     target: "/le-laboratoire/administration/"
     kind: page
     children: []
-  - title: Environnement institutionnel
-    target: "/le-laboratoire/environnement-institutionnel/"
-    kind: page
-    children: []
   - title: Partenaires
     target: "/le-laboratoire/partenaires/"
     kind: page
