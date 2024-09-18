@@ -1,47 +1,52 @@
 #document-header
     .logo
-        > img
-            display: block !important
+        > img:not(.logo-darkmode)
+            display: block
         .logo-darkmode
-            display: none !important
-.has-menu-opened
-    #document-header
-        .logo
-            > img
-                display: none !important
+            display: none
+        .has-menu-opened & 
+            > img:not(.logo-darkmode)
+                display: none
             .logo-darkmode
-                display: block !important
-.dropdown-menu
-    @include media-breakpoint-up(lg)
-        transform-origin: 100% 0%
-        transform: rotate(20deg) translateY(-100px)
-        z-index: -1
-        display: inline
-        padding-top: 300px !important
-    .dropdown-menu-title
-        font-weight: bold !important
+                display: block
 
-.avatar 
+@include media-breakpoint-up(lg)
+    .menu 
+        .nav-level-1 
+            li.has-children 
+                [aria-expanded="true"] + .dropdown-menu
+                    align-items: flex-end
+                    display: flex
+                    justify-content: flex-end
+                    min-height: 60vh
+                    transform-origin: 100% 0%
+                    transform: rotate(20deg) translateY(-15vh)
+                    z-index: -1
+
+.avatar
+    background-color: $color-accent
     border: 2px solid $color-accent
 .persons__page .hero--with-image figure picture
+    background-color: $color-accent
     border: 10px solid $color-accent
+
 .blocks
     .block
-        &-pages
-            &--cards
-                background: none
-                .cards
-                    .card
-                        border: $color-border solid 1px
-#document-footer
+        &-pages--cards
+            background: none
+            .cards > *
+                border: $color-border solid 1px
+
+footer#document-footer
     overflow: hidden
-    padding-top: 150px !important
+    padding-top: $spacing-6
     .footer-site
         color: $color-background
         position: absolute
         bottom: var(--grid-gutter)
         right: var(--grid-gutter)
         text-align: right
+        z-index: 1
         &::before
             content: ''
             background-image: url('/assets/images/logo-on-red.png')
@@ -51,29 +56,32 @@
             height: 40px
             width: 100px
         [itemprop="name"]
-            display: none
+            @extend .sr-only
+            + address
+                margin-top: 0
         @include media-breakpoint-up(lg)
+            padding-top: $spacing-6
             transform: rotate(20deg)
-        address
-            margin-top: 0 !important
-    .footer-credit
-        @include media-breakpoint-down(lg)
+    @include media-breakpoint-down(lg)
+        .footer-credit
             margin-bottom: $spacing-7
+        .container + .footer-search
+            margin-top: 0
     #search-button
-        z-index: -1
         color: $color-accent
         position: absolute
         transform: rotate(20deg)
         @include media-breakpoint-down(lg)
             right: 20%
-            bottom: 250px
+            bottom: 33%
         @include media-breakpoint-up(lg)
             right: 30%
-            top: 100px
+            top: 24%
         &::before
             content: ''
             background: $color-accent
-            width: 5000px
             height: 5000px
-            top: $spacing-4
+            pointer-events: none
             position: absolute
+            top: $spacing-4
+            width: 5000px
