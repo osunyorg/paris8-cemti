@@ -78,6 +78,30 @@ contents:
 
 
   - kind: block
+    template: posts
+    title: >-
+      Actualités récentes
+    ranks:
+      self: 2
+      children: 3
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: true
+        summary: true
+
+      posts:
+        - "2024/2024-09-23-seance-inaugurale-du-seminaire-du-cemti-2024-2025"
+        - "2024/2024-09-23-seance-inaugurale-du-seminaire-capitalisme-cognitif-2024-2025"
+
+
+  - kind: block
     template: pages
     title: >-
       Le laboratoire
@@ -112,30 +136,6 @@ contents:
           slug: "contact"
           file: "pages/le-laboratoire/contact/_index.html"
           external: false
-
-
-  - kind: block
-    template: posts
-    title: >-
-      Actualités récentes
-    ranks:
-      self: 2
-      children: 3
-    data:
-      mode: all
-      all: true
-      layout: grid
-      options:
-        author: false
-        categories: false
-        date: false
-        image: true
-        reading_time: true
-        summary: true
-
-      posts:
-        - "2024/2024-09-23-seance-inaugurale-du-seminaire-du-cemti-2024-2025"
-        - "2024/2024-09-23-seance-inaugurale-du-seminaire-capitalisme-cognitif-2024-2025"
 
 
 
