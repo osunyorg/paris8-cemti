@@ -9,6 +9,7 @@ fr:
   params:
     social:
   permalinks:
+    posts: /actualites/:year-:month-:day-:slug/
     events: /la-recherche/agenda/:year-:month-:day-:slug/
     events_categories: /la-recherche/agenda/:slug/
     projects: /la-recherche/projets-de-recherche/:year-:slug/
@@ -18,6 +19,7 @@ fr:
     organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
+    authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/publications/
   taxonomies:
     administrator: administrators
