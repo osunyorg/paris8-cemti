@@ -17,6 +17,10 @@ items:
     target: "/le-laboratoire/partenaires/"
     kind: page
     children: []
+  - title: Contact
+    target: "/le-laboratoire/contact/"
+    kind: page
+    children: []
 - title: L'équipe
   target: "/lequipe/"
   kind: page
