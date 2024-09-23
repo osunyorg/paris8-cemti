@@ -1,0 +1,13 @@
+
+.blocks
+    .block
+        &-pages--cards
+            background: none
+            .cards > *
+                border: $color-border solid 1px
+        &-links
+            ul
+                @include media-breakpoint-up(desktop)
+                    grid-template-columns: repeat(2, 1fr) !important
+                    li
+                        min-height: 200px

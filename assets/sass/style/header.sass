@@ -1,0 +1,24 @@
+#document-header
+    .logo
+        > img:not(.logo-darkmode)
+            display: block
+        .logo-darkmode
+            display: none
+        .has-menu-opened & 
+            > img:not(.logo-darkmode)
+                display: none
+            .logo-darkmode
+                display: block
+
+@include media-breakpoint-up(lg)
+    .menu 
+        .nav-level-1 
+            li.has-children 
+                [aria-expanded="true"] + .dropdown-menu
+                    align-items: flex-end
+                    display: flex
+                    justify-content: flex-end
+                    min-height: 60vh
+                    transform-origin: 100% 0%
+                    transform: rotate(20deg) translateY(-15vh)
+                    z-index: -1
