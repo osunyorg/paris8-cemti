@@ -14,6 +14,8 @@ fr:
     projects: /la-recherche/projets-de-recherche/:year-:slug/
     projects_categories: /la-recherche/projets-de-recherche/:slug/
     publications: /publications/:year-:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     researchers: /equipe/:slug/publications/
