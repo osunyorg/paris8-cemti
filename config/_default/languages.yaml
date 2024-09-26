@@ -10,8 +10,8 @@ fr:
     social:
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
-    events: /la-recherche/agenda/:year-:month-:day-:slug/
-    events_categories: /la-recherche/agenda/:slug/
+    events: /la-recherche/seminaires/:year-:month-:day-:slug/
+    events_categories: /la-recherche/seminaires/:slug/
     projects: /la-recherche/projets-de-recherche/:year-:slug/
     projects_categories: /la-recherche/projets-de-recherche/:slug/
     publications: /publications/:year-:slug/
