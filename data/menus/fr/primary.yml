@@ -49,4 +49,8 @@ items:
     target: "/la-recherche/agenda/"
     kind: page
     children: []
+  - title: Événements
+    target: "/la-recherche/agenda/"
+    kind: page
+    children: []
 
