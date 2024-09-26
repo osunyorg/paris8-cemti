@@ -45,7 +45,7 @@ items:
     target: "/la-recherche/projets-de-recherche/"
     kind: page
     children: []
-  - title: Agenda
+  - title: Séminaires
     target: "/la-recherche/agenda/"
     kind: page
     children: []
