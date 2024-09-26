@@ -46,11 +46,11 @@ items:
     kind: page
     children: []
   - title: Séminaires
-    target: "/la-recherche/agenda/"
+    target: "/la-recherche/seminaires/"
     kind: page
     children: []
   - title: Événements
-    target: "/la-recherche/agenda/"
+    target: "/la-recherche/seminaires/"
     kind: page
     children: []
 
