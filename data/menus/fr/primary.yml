@@ -29,6 +29,10 @@ items:
     target: "/lequipe/membres-permanents/"
     kind: page
     children: []
+  - title: Membres associés
+    target: "/lequipe/membres-associes/"
+    kind: page
+    children: []
 - title: La recherche
   target: "/la-recherche/"
   kind: page
