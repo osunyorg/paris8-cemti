@@ -180,17 +180,34 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      La recherche
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
+      page: 
+        path: "/la-recherche/"
+        slug: "la-recherche"
+        file: "pages/la-recherche/_index.html"
       options:
         image: true
         main_summary: true
         summary: true
 
-      layout: grid
+      layout: cards
       pages:
+        - path: "/la-recherche/projets-de-recherche/"
+          slug: "projets-de-recherche"
+          file: "projects/_index.html"
+          external: false
+        - path: "/la-recherche/seminaires/"
+          slug: "seminaires"
+          file: "events/_index.html"
+          external: false
+        - path: "/la-recherche/evenements/"
+          slug: "evenements"
+          file: "pages/la-recherche/evenements/_index.html"
+          external: false
 
 
 
