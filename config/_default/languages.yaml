@@ -9,11 +9,12 @@ fr:
   params:
     social:
   permalinks:
-    posts: /actualites/:year-:month-:day-:slug/
     events: /la-recherche/seminaires/:year-:month-:day-:slug/
     events_categories: /la-recherche/seminaires/:slug/
     projects: /la-recherche/projets-de-recherche/:year-:slug/
     projects_categories: /la-recherche/projets-de-recherche/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
