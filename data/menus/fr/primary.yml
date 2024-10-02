@@ -53,4 +53,8 @@ items:
     target: "/la-recherche/evenements/"
     kind: page
     children: []
+- title: Publications
+  target: "/publications/"
+  kind: page
+  children: []
 
