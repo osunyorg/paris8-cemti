@@ -54,7 +54,7 @@ items:
     kind: page
     children: []
   - title: Publications
-    target: "/publications/"
+    target: "/la-recherche/publications/"
     kind: page
     children: []
 
