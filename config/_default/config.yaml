@@ -4,8 +4,6 @@ removePathAccents: true
 pagination:
   pagerSize: 30
 params:
-  breadcrumb:
-    position: after-hero
   menu:
     dropdown:
       linkToLevel1: true
