@@ -9,8 +9,8 @@ fr:
   params:
     social:
   permalinks:
-    events: /la-recherche/seminaires/:year-:month-:day-:slug/
-    events_categories: /la-recherche/seminaires/:slug/
+    events: /evenementss/:year-:month-:day-:slug/
+    events_categories: /evenementss/:slug/
     projects: /la-recherche/projets-de-recherche/:year-:slug/
     projects_categories: /la-recherche/projets-de-recherche/:slug/
     posts: /actualites/:year-:month-:day-:slug/
