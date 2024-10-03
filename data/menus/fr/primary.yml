@@ -41,7 +41,7 @@ items:
   target: "/la-recherche/"
   kind: page
   children:
-  - title: Projets de recherche
+  - title: Projets
     target: "/la-recherche/projets-de-recherche/"
     kind: page
     children: []
