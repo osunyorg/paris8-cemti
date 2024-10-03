@@ -25,7 +25,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 position: 13
@@ -49,18 +49,25 @@ header_cta:
   label: >-
     
   target: ""
+  external: true
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: heading
+    title: >-
+      Séminaires à venir
+    slug: "seminaires-a-venir"
+    position: 0
+    rank: 2
   - kind: block
     template: agenda
     title: >-
       Séminaires à venir
     ranks:
-      self: 2
-      children: 3
+      self: 3
+      children: 4
     data:
       mode: selection
       options:
@@ -92,13 +99,20 @@ contents:
           file: "events/2025-01-23-seminaire-les-arts-en-afrique-et-dans-ses-diasporas.html"
 
 
+
+  - kind: heading
+    title: >-
+      Séminaires passés
+    slug: "seminaires-passes"
+    position: 1
+    rank: 2
   - kind: block
     template: agenda
     title: >-
       Séminaires passés
     ranks:
-      self: 2
-      children: 3
+      self: 3
+      children: 4
     data:
       mode: selection
       options:
@@ -142,6 +156,7 @@ contents:
           file: "events/archives/2023/2023-10-26-seminaire-des-doctorantes-du-cemti-2023.html"
         - path: "/la-recherche/seminaires/2024-03-12-seminaire-intelligence-artificielle-et-industries-culturelles/"
           file: "events/archives/2024/2024-03-12-seminaire-intelligence-artificielle-et-industries-culturelles.html"
+
 
 
 
