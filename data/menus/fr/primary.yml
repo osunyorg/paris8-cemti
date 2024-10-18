@@ -41,6 +41,10 @@ items:
   target: "/la-recherche/"
   kind: page
   children:
+  - title: Actualités
+    target: "/actualites/"
+    kind: page
+    children: []
   - title: Projets
     target: "/la-recherche/projets-de-recherche/"
     kind: page
@@ -55,10 +59,6 @@ items:
     children: []
   - title: Publications
     target: "/la-recherche/publications/"
-    kind: page
-    children: []
-  - title: Actualités
-    target: "/actualites/"
     kind: page
     children: []
 
