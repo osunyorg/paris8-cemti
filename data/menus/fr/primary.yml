@@ -37,6 +37,10 @@ items:
       target: "/lequipe/membres-permanents/past-mast/"
       kind: page
       children: []
+    - title: Personnel administratif
+      target: "/lequipe/membres-permanents/personnel-administratif/"
+      kind: page
+      children: []
   - title: Membres associés
     target: "/lequipe/membres-associes/"
     kind: page
