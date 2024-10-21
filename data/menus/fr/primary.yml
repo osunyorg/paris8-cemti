@@ -28,19 +28,7 @@ items:
   - title: Membres permanents
     target: "/lequipe/membres-permanents/"
     kind: page
-    children:
-    - title: Enseignants-chercheurs titulaires
-      target: "/lequipe/membres-permanents/enseignants-chercheurs-titulaires/"
-      kind: page
-      children: []
-    - title: PAST-MAST
-      target: "/lequipe/membres-permanents/past-mast/"
-      kind: page
-      children: []
-    - title: Personnel administratif
-      target: "/lequipe/membres-permanents/personnel-administratif/"
-      kind: page
-      children: []
+    children: []
   - title: Membres associés
     target: "/lequipe/membres-associes/"
     kind: page
