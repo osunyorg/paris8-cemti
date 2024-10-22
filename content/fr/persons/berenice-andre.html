@@ -67,8 +67,6 @@ backlinks:
   current_website:
     name: "CÉMTI"
     pages:
-      - path: "/lequipe/membres-permanents/past-mast/"
-        file: "pages/lequipe/membres-permanents/past-mast/_index.html"
       - path: "/lequipe/membres-permanents/"
         file: "pages/lequipe/membres-permanents/_index.html"
     posts:
@@ -82,15 +80,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Thèmes de recherche
-    slug: "themes-de-recherche"
-    position: 1
-    rank: 2
+    slug: >-
+      themes-de-recherche
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -108,7 +114,6 @@ contents:
 
       credit: >-
         
-
 
 
 
