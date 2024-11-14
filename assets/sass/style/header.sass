@@ -1,14 +1,14 @@
 #document-header
     .logo
         > img:not(.logo-darkmode)
-            display: block
+            display: block !important
         .logo-darkmode
-            display: none
+            display: none !important
         .has-menu-opened & 
             > img:not(.logo-darkmode)
-                display: none
+                display: none !important
             .logo-darkmode
-                display: block
+                display: block !important
 
 @include media-breakpoint-up(lg)
     .menu 
@@ -18,9 +18,9 @@
                     align-items: flex-end
                     display: flex
                     justify-content: flex-end
-                    min-height: 60vh
+                    min-height: 600px
                     transform-origin: 100% 0%
-                    transform: rotate(20deg) translateY(-15vh)
+                    transform: rotate(15deg) translateY(-200px)
                     z-index: -1
             > li > a
                 @include small
