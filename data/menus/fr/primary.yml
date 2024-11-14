@@ -33,7 +33,7 @@ items:
     target: "/lequipe/membres-associes/"
     kind: page
     children: []
-  - title: Doctorant.es
+  - title: Doctorant·es
     target: "/lequipe/doctorantes/"
     kind: page
     children: []
