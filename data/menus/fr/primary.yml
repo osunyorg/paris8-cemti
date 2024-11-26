@@ -9,18 +9,23 @@ items:
     target: "/le-laboratoire/presentation/"
     kind: page
     children: []
+    file: content/fr/pages/le-laboratoire/presentation/_index.html
   - title: Administration
     target: "/le-laboratoire/administration/"
     kind: page
     children: []
+    file: content/fr/pages/le-laboratoire/administration/_index.html
   - title: Partenaires
     target: "/le-laboratoire/partenaires/"
     kind: page
     children: []
+    file: content/fr/pages/le-laboratoire/partenaires/_index.html
   - title: Contact
     target: "/le-laboratoire/contact/"
     kind: page
     children: []
+    file: content/fr/pages/le-laboratoire/contact/_index.html
+  file: content/fr/pages/le-laboratoire/_index.html
 - title: L'équipe
   target: "/lequipe/"
   kind: page
@@ -29,14 +34,18 @@ items:
     target: "/lequipe/membres-permanents/"
     kind: page
     children: []
+    file: content/fr/pages/lequipe/membres-permanents/_index.html
   - title: Membres associés
     target: "/lequipe/membres-associes/"
     kind: page
     children: []
+    file: content/fr/pages/lequipe/membres-associes/_index.html
   - title: Doctorant·es
     target: "/lequipe/doctorantes/"
     kind: page
     children: []
+    file: content/fr/pages/lequipe/doctorantes/_index.html
+  file: content/fr/pages/lequipe/_index.html
 - title: La recherche
   target: "/la-recherche/"
   kind: page
@@ -45,20 +54,26 @@ items:
     target: "/la-recherche/projets-de-recherche/"
     kind: page
     children: []
+    file: content/fr/projects/_index.html
   - title: Séminaires
     target: "/la-recherche/seminaires/"
     kind: page
     children: []
+    file: content/fr/pages/la-recherche/seminaires/_index.html
   - title: Événements
     target: "/la-recherche/evenements/"
     kind: page
     children: []
+    file: content/fr/pages/la-recherche/evenements/_index.html
   - title: Publications
     target: "/la-recherche/publications/"
     kind: page
     children: []
+    file: content/fr/publications/_index.html
   - title: Actualités
     target: "/actualites/"
     kind: page
     children: []
+    file: content/fr/posts/_index.html
+  file: content/fr/pages/la-recherche/_index.html
 
