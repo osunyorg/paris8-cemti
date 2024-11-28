@@ -16,4 +16,4 @@ params:
     header:
       default: /assets/images/logo.png
       darkmode: /assets/images/logo-on-red.png
-    footer: /assets/images/paris8.png
+    footer: /assets/images/logo-paris8.svg
