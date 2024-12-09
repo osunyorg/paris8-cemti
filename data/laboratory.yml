@@ -1,21 +1,11 @@
 ---
 name: >-
   CÉMTI
-address_name: >-
-  
-address: >-
-  2 rue de la Liberté
-address_additional: >-
-  
-zipcode: >-
-  93526
-city: >-
-  Saint-Denis cedex
-country: >-
-  France
 contact_details:
   postal_address:
     data:
+      address_name: >-
+        
       address: >-
         2 rue de la Liberté
       address_additional: >-
@@ -24,17 +14,16 @@ contact_details:
         93526
       city: >-
         Saint-Denis cedex
-      country: >-
+      country:
         name: >-
           France
         alpha2: >-
           FR
         alpha3: >-
           FRA
-      country: >-
-        France
     text: >-
       2 rue de la Liberté 93526 Saint-Denis cedex FRANCE
     html: >-
       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">2 rue de la Liberté</span> <span itemprop="postalCode">93526</span> <span itemprop="addressLocality">Saint-Denis cedex</span> <span itemprop="addressCountry">FRANCE</span></address>
+
 ---
