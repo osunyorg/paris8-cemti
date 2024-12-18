@@ -4,28 +4,33 @@ items:
 - title: Le laboratoire
   target: "/le-laboratoire/"
   kind: page
+  new_tab: false
   children:
   - title: Présentation
     target: "/le-laboratoire/presentation/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/le-laboratoire/presentation"
     file: content/fr/pages/le-laboratoire/presentation/_index.html
   - title: Administration
     target: "/le-laboratoire/administration/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/le-laboratoire/administration"
     file: content/fr/pages/le-laboratoire/administration/_index.html
   - title: Partenaires
     target: "/le-laboratoire/partenaires/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/le-laboratoire/partenaires"
     file: content/fr/pages/le-laboratoire/partenaires/_index.html
   - title: Contact
     target: "/le-laboratoire/contact/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/le-laboratoire/contact"
     file: content/fr/pages/le-laboratoire/contact/_index.html
@@ -34,22 +39,26 @@ items:
 - title: L'équipe
   target: "/lequipe/"
   kind: page
+  new_tab: false
   children:
   - title: Membres permanents
     target: "/lequipe/membres-permanents/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/lequipe/membres-permanents"
     file: content/fr/pages/lequipe/membres-permanents/_index.html
   - title: Membres associés
     target: "/lequipe/membres-associes/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/lequipe/membres-associes"
     file: content/fr/pages/lequipe/membres-associes/_index.html
   - title: Doctorant·es
     target: "/lequipe/doctorantes/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/lequipe/doctorantes"
     file: content/fr/pages/lequipe/doctorantes/_index.html
@@ -58,34 +67,40 @@ items:
 - title: La recherche
   target: "/la-recherche/"
   kind: page
+  new_tab: false
   children:
   - title: Projets
     target: "/la-recherche/projets-de-recherche/"
     kind: page
+    new_tab: false
     children: []
     path: "/projects"
     file: content/fr/projects/_index.html
   - title: Séminaires
     target: "/la-recherche/seminaires/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/la-recherche/seminaires"
     file: content/fr/pages/la-recherche/seminaires/_index.html
   - title: Événements
     target: "/la-recherche/evenements/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/la-recherche/evenements"
     file: content/fr/pages/la-recherche/evenements/_index.html
   - title: Publications
     target: "/la-recherche/publications/"
     kind: page
+    new_tab: false
     children: []
     path: "/publications"
     file: content/fr/publications/_index.html
   - title: Actualités
     target: "/actualites/"
     kind: page
+    new_tab: false
     children: []
     path: "/posts"
     file: content/fr/posts/_index.html
