@@ -5,8 +5,10 @@ pagination:
   pagerSize: 30
 params:
   menu:
-    dropdown:
-      linkToLevel1: true
+    primary:
+      level_2:
+        title:
+          active: true
   summary:
     position: hero
   search:
