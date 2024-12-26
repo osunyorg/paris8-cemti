@@ -13,7 +13,8 @@ params:
     position: hero
   search:
     active: true
-    position: footer
+    positions:
+      - footer
   logo:
     header:
       default: /assets/images/logo.png
