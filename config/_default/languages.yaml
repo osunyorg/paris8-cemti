@@ -12,6 +12,7 @@ fr:
   permalinks:
     events: /evenementss/:year-:month-:day-:slug/
     events_categories: /evenementss/:slug/
+    pages_categories: /:slug/
     projects: /la-recherche/projets-de-recherche/:year-:slug/
     projects_categories: /la-recherche/projets-de-recherche/:slug/
     posts: /actualites/:year-:month-:day-:slug/
@@ -30,6 +31,7 @@ fr:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
