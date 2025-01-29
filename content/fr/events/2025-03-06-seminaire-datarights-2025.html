@@ -32,7 +32,7 @@ design:
     present: false
     offcanvas: false
 
-weight: 37
+weight: 36
 dates:
   status: "future"
   archive: false
@@ -74,12 +74,16 @@ summary: >-
 
 events_categories:
   - "seminaire"
-free_categories:
-  - permalink: "/evenementss/seminaire/"
-    path: "/events_categories/seminaire"
-    slug: "seminaire"
-    file: "content/fr/events_categories/seminaire/_index.html"
-    name: "Séminaire"
+taxonomies:
+  - name: "Catégories"
+    slug: ""
+    categories:
+      - permalink: "/evenementss/seminaire/"
+        path: "/events_categories/seminaire"
+        slug: "seminaire"
+        file: "content/fr/events_categories/seminaire/_index.html"
+        name: "Séminaire"
+
 
 contents_reading_time:
   seconds: 58
