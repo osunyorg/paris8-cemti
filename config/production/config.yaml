@@ -2,6 +2,11 @@
 
 baseURL: https://www.cemti.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 8dde6946-cc2a-47fd-b52f-40b0d816c13b
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
