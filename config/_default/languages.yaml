@@ -10,22 +10,6 @@ fr:
   params:
     contact_details:
 
-  permalinks:
-    events: /evenementss/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /evenementss/:slug/
-    pages_categories: /:slug/
-    projects: /la-recherche/projets-de-recherche/:year-:slug/
-    projects_categories: /la-recherche/projets-de-recherche/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
-    publications: /la-recherche/publications/:year-:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
-    persons: /equipe/:slug/
-    persons_categories: /equipe/categories/:slug/
-    authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
