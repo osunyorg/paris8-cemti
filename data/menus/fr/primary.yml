@@ -2,108 +2,150 @@
 title: Menu principal
 items:
 - title: Le laboratoire
+  slug: le-laboratoire
   target: "/le-laboratoire/"
   kind: page
   new_tab: false
   children:
   - title: Présentation
+    slug: presentation
     target: "/le-laboratoire/presentation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-laboratoire/presentation"
     file: content/fr/pages/le-laboratoire/presentation/_index.html
   - title: Administration
+    slug: administration
     target: "/le-laboratoire/administration/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-laboratoire/administration"
     file: content/fr/pages/le-laboratoire/administration/_index.html
   - title: Partenaires
+    slug: partenaires
     target: "/le-laboratoire/partenaires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-laboratoire/partenaires"
     file: content/fr/pages/le-laboratoire/partenaires/_index.html
   - title: Contact
+    slug: contact
     target: "/le-laboratoire/contact/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-laboratoire/contact"
     file: content/fr/pages/le-laboratoire/contact/_index.html
+  descendants_targets:
+  - "/le-laboratoire/administration/"
+  - "/le-laboratoire/contact/"
+  - "/le-laboratoire/partenaires/"
+  - "/le-laboratoire/presentation/"
   path: "/pages/le-laboratoire"
   file: content/fr/pages/le-laboratoire/_index.html
 - title: L'équipe
+  slug: l-equipe
   target: "/lequipe/"
   kind: page
   new_tab: false
   children:
   - title: Membres permanents
+    slug: membres-permanents
     target: "/lequipe/membres-permanents/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/lequipe/membres-permanents"
     file: content/fr/pages/lequipe/membres-permanents/_index.html
   - title: Membres associés
+    slug: membres-associes
     target: "/lequipe/membres-associes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/lequipe/membres-associes"
     file: content/fr/pages/lequipe/membres-associes/_index.html
   - title: Doctorant·es
+    slug: doctorant-es
     target: "/lequipe/doctorantes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/lequipe/doctorantes"
     file: content/fr/pages/lequipe/doctorantes/_index.html
+  descendants_targets:
+  - "/lequipe/doctorantes/"
+  - "/lequipe/membres-associes/"
+  - "/lequipe/membres-permanents/"
   path: "/pages/lequipe"
   file: content/fr/pages/lequipe/_index.html
 - title: La recherche
+  slug: la-recherche
   target: "/la-recherche/"
   kind: page
   new_tab: false
   children:
   - title: Projets
+    slug: projets
     target: "/la-recherche/projets-de-recherche/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/projects"
     file: content/fr/projects/_index.html
   - title: Séminaires
+    slug: seminaires
     target: "/la-recherche/seminaires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/la-recherche/seminaires"
     file: content/fr/pages/la-recherche/seminaires/_index.html
   - title: Événements
+    slug: evenements
     target: "/la-recherche/evenements/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/la-recherche/evenements"
     file: content/fr/pages/la-recherche/evenements/_index.html
   - title: Publications
+    slug: publications
     target: "/la-recherche/publications/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/publications"
     file: content/fr/publications/_index.html
   - title: Actualités
+    slug: actualites
     target: "/actualites/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
+  descendants_targets:
+  - "/actualites/"
+  - "/la-recherche/evenements/"
+  - "/la-recherche/projets-de-recherche/"
+  - "/la-recherche/publications/"
+  - "/la-recherche/seminaires/"
   path: "/pages/la-recherche"
   file: content/fr/pages/la-recherche/_index.html
 
