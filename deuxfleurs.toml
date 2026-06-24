@@ -3831,6 +3831,10 @@ from = "/publications/2014-rap-francais-rap-en-francais-rap-de-fils-d-immigres-f
 to = "/la-recherche/publications/2014-rap-francais-rap-en-francais-rap-de-fils-d-immigres-french-hip-hop-and-postcolonial-issues/"
 
 [[redirects]]
+from = "/la-recherche/projets-de-recherche/1-perform/index.html"
+to = "/la-recherche/projets-de-recherche/2026-perform/"
+
+[[redirects]]
 from = "/publications/2009-des-passages-pas-si-ephemeres-ou-comment-re-ontologiser-les-restes-dans-la-poesie-numerique/index.html"
 to = "/la-recherche/publications/2009-des-passages-pas-si-ephemeres-ou-comment-re-ontologiser-les-restes-dans-la-poesie-numerique/"
 
