@@ -503,6 +503,10 @@ from = "/publications/2020-breathing-out-of-school/index.html"
 to = "/la-recherche/publications/2020-breathing-out-of-school/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/programme-choisir-la-musiquepdf/"
+
+[[redirects]]
 from = "/publications/2016-advertising-in-the-global-arena/index.html"
 to = "/la-recherche/publications/2016-advertising-in-the-global-arena/"
 
