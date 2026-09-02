@@ -86,6 +86,48 @@ contents:
       layout: classic
 
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: category
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: list
+
+
+      title_link: "/evenementss/evenement/"
+      category:
+        permalink: "/evenementss/evenement/"
+        path: "/events_categories/evenement"
+        slug: "evenement"
+        file: "content/fr/events_categories/evenement/_index.html"
+      events:
+        - permalink: "/evenementss/2026/etudier-les-idees-politiques-en-contexte-numerique/"
+          path: "/events/2026/09/21-etudier-les-idees-politiques-en-contexte-numerique"
+          slug: "etudier-les-idees-politiques-en-contexte-numerique"
+          file: "content/fr/events/2026/09/21-etudier-les-idees-politiques-en-contexte-numerique.html"
+          name: >-
+            Étudier les idées politiques en contexte numérique
+
+      quantity: 1
 
   - kind: block
     template: title
