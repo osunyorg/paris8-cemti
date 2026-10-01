@@ -1587,6 +1587,10 @@ from = "/publications/2009-ensenar-el-periodismo-los-planes-de-estudios-en-franc
 to = "/la-recherche/publications/2009-ensenar-el-periodismo-los-planes-de-estudios-en-francia/"
 
 [[redirects]]
+from = "/actualites/2026-09-01-adolescences-et-vie-privee-dans-les-mondes-numeriques/index.html"
+to = "/actualites/2026-10-01-adolescences-et-vie-privee-dans-les-mondes-numeriques/"
+
+[[redirects]]
 from = "/publications/2023-dans-les-flammes-de-snapchat-le-travail-emotionnel-des-adolescents/index.html"
 to = "/la-recherche/publications/2023-dans-les-flammes-de-snapchat-le-travail-emotionnel-des-adolescents/"
 
